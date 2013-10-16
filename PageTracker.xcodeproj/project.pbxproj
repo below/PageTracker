@@ -19,6 +19,8 @@
 		CBC59632180ECD4F004FC834 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC5961A180ECD4F004FC834 /* UIKit.framework */; };
 		CBC5963A180ECD4F004FC834 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBC59638180ECD4F004FC834 /* InfoPlist.strings */; };
 		CBC5963C180ECD4F004FC834 /* PageTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC5963B180ECD4F004FC834 /* PageTrackerTests.m */; };
+		CBC59647180ECEDF004FC834 /* MyPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC59646180ECEDF004FC834 /* MyPageViewController.m */; };
+		CBC5964A180ED45D004FC834 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC59649180ED45D004FC834 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		CBC59637180ECD4F004FC834 /* PageTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PageTrackerTests-Info.plist"; sourceTree = "<group>"; };
 		CBC59639180ECD4F004FC834 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBC5963B180ECD4F004FC834 /* PageTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageTrackerTests.m; sourceTree = "<group>"; };
+		CBC59645180ECEDF004FC834 /* MyPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPageViewController.h; sourceTree = "<group>"; };
+		CBC59646180ECEDF004FC834 /* MyPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPageViewController.m; sourceTree = "<group>"; };
+		CBC59648180ED45D004FC834 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		CBC59649180ED45D004FC834 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,10 @@
 				CBC59626180ECD4F004FC834 /* AppDelegate.m */,
 				CBC59628180ECD4F004FC834 /* Images.xcassets */,
 				CBC5961D180ECD4F004FC834 /* Supporting Files */,
+				CBC59645180ECEDF004FC834 /* MyPageViewController.h */,
+				CBC59646180ECEDF004FC834 /* MyPageViewController.m */,
+				CBC59648180ED45D004FC834 /* MyViewController.h */,
+				CBC59649180ED45D004FC834 /* MyViewController.m */,
 			);
 			path = PageTracker;
 			sourceTree = "<group>";
@@ -239,7 +249,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBC59647180ECEDF004FC834 /* MyPageViewController.m in Sources */,
 				CBC59627180ECD4F004FC834 /* AppDelegate.m in Sources */,
+				CBC5964A180ED45D004FC834 /* MyViewController.m in Sources */,
 				CBC59623180ECD4F004FC834 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

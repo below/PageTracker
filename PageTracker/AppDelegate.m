@@ -7,13 +7,16 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MyPageViewController.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
+    UIPageViewController *pgv = [[MyPageViewController alloc] init];
+    UINavigationController * nc = [[UINavigationController alloc] initWithRootViewController:pgv];
+    self.window.rootViewController = nc;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
