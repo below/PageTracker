@@ -19,11 +19,12 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    self = [super initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll
+                    navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal
+                                  options:nil];
     if (self) {
         self.dataSource = self;
         self.delegate = self;
-
         _myViewControllers = [NSMutableArray arrayWithObjects:
                             [[MyViewController alloc] initWithText:@"A" color:[UIColor redColor]],
                             [[MyViewController alloc] initWithText:@"B" color:[UIColor greenColor]],
